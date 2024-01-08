@@ -1,0 +1,19 @@
+#
+# DigitalOcean API Slugs 
+# https://slugs.do-api.dev/
+#
+# Regional Availability Matrix 
+# https://docs.digitalocean.com/products/platform/availability-matrix/
+#
+region        = "nyc1"
+droplet_count = 1
+# Ram: 512Mb, CPU: 1, Disk: 25Gb
+droplet_size  = "s-1vcpu-512mb-10gb"
+# Ram: 1Gb, CPU: 1, Disk: 25Gb
+# droplet_size = "s-1vcpu-1gb"
+# Ram: 16Gb, CPU: 8, Disk: 320Gb
+# droplet_size = "s-8vcpu-16gb-intel"
+##### SENSIBLE DATA
+ssh_key     = "ssh-key-name"
+do_token = "YOUR_DIGITALOCEAN_API_TOKEN"
+
